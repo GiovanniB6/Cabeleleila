@@ -43,6 +43,7 @@ Cabeleleila é uma plataforma web moderna desenvolvida para facilitar o agendame
 - Node.js 18+
 - MySQL
 - Git
+- XAMPP
 
 ## 🚀 Como Executar o Projeto
 
@@ -52,10 +53,12 @@ git clone https://github.com/giovannib6/cabeleleila.git
 cd cabeleleila
 ```
 
-2. **Instale as dependências**
+2. **Instale as dependências e ative o banco de dados**
 ```bash
 npm install
 npm install mysql2
+-------------------
+Ative o MySQL no xampp
 ```
 
 3. **Configure as variáveis de ambiente**
@@ -75,11 +78,6 @@ npm run dev
 ```
 
 O projeto estará disponível em `http://localhost:3000`
-
-## 📸 Screenshots e Demonstração
-
-- [Link para o vídeo de demonstração](./demo/video-demo.mp4)
-- Screenshots disponíveis na pasta [./demo/screenshots](./demo/screenshots)
 
 ## 🏗️ Estrutura do Projeto
 
